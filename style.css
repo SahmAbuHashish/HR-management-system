@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+:root{
+    --background : #F1DBBF;
+    --navbar : #AA5656;
+    --templet : #698269;
+    --other : #B99B6B;
+}
+body{
+    background-color: var(--background);
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--navbar)
+}
+
+nav ul {
+    padding: 20px 10px;
+    margin-right: 10px;
+    display: flex;
+    list-style-type:none ;
+    gap: 20px;
+}
+
+a:hover{
+    background-color: var(--background);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*-----------main-------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formId{
+    box-shadow: -13px 19px 14px 0px #000000b0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--templet);
+    width: 50%;
+}
+
+input,select{
+    width: 100%;
+    padding: 0 15px 0 15px;
+    padding: 8px 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form #submit:hover{
+    background-color: #859d85;
+}
+
+#employeeDiv{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Cadrs{
+    display: flex;
+    flex-direction: column;
+    box-shadow: -13px 19px 14px 0px #000000b0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--templet);
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+}
+/*--------------table---------------*/
+
+table{
+    font-family: 'Monofett', cursive;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+td, th{
+    border: 1px solid black;
+}
+th{
+    padding: 20px ;
+}
+td{
+    padding: 10px
+}
+
+/*------------footer----------------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navbar);
+    align-items: flex-end;
+}
+
+footer p{
+    font-family: 'Playfair Display', serif;
+}
+
+footer ul {
+    padding: 10px 10px;
+    margin-right: 10px;
+    list-style-type:none ;
+    gap: 20px;
+}
