@@ -14,3 +14,11 @@
 - Create a function to generate a unique id for employee
 - add an event listener to get the data from the form
 - refactor the render prototype function to render each employee information
+
+## lab 09
+
+- Save all the employees in the Local Storage.
+- Create a new js file called accounting.js.
+- connect the accounting.js with Accounting Page.
+- add table to Accounting Page.
+- Render each department information in a table.
